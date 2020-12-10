@@ -1,0 +1,348 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                3,
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane",
+            "scale" : [
+                0.27068936824798584,
+                0.27068936824798584,
+                0.27068936824798584
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Sphere",
+            "scale" : [
+                1.863992691040039,
+                1.863992691040039,
+                1.863992691040039
+            ],
+            "translation" : [
+                0,
+                0,
+                8.987077713012695
+            ]
+        },
+        {
+            "camera" : 0,
+            "name" : "Camera_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Camera",
+            "rotation" : [
+                0,
+                0.7372773885726929,
+                -0.6755902171134949,
+                -3.222742250841293e-08
+            ],
+            "translation" : [
+                0,
+                1.0080289840698242,
+                -4
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Torus",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.5469977855682373,
+                0.5469977855682373,
+                0.5469977855682373
+            ],
+            "translation" : [
+                0,
+                0.3242229223251343,
+                3.5999999046325684
+            ]
+        }
+    ],
+    "cameras" : [
+        {
+            "name" : "Camera.001",
+            "perspective" : {
+                "aspectRatio" : 1.7777777777777777,
+                "yfov" : 0.39959648408210363,
+                "zfar" : 1000,
+                "znear" : 0.10000000149011612
+            },
+            "type" : "perspective"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                0.2985888421535492,
+                0
+            ],
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Sphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Torus",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 66049,
+            "max" : [
+                16.125673294067383,
+                0.8558056950569153,
+                16.451231002807617
+            ],
+            "min" : [
+                -16.125673294067383,
+                -0.4256858825683594,
+                -16.451231002807617
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 66049,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 66049,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 393216,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2077,
+            "max" : [
+                1.000000238418579,
+                1,
+                1.0000003576278687
+            ],
+            "min" : [
+                -0.9999998211860657,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2077,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2077,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 11520,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 16491,
+            "max" : [
+                1.2680000066757202,
+                0.26799944043159485,
+                1.2679994106292725
+            ],
+            "min" : [
+                -1.2680000066757202,
+                -0.26799944043159485,
+                -1.2679994106292725
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 16491,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 16491,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 124416,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 792588,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 792588,
+            "byteOffset" : 792588
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 528392,
+            "byteOffset" : 1585176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1572864,
+            "byteOffset" : 2113568
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24924,
+            "byteOffset" : 3686432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24924,
+            "byteOffset" : 3711356
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16616,
+            "byteOffset" : 3736280
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23040,
+            "byteOffset" : 3752896
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 197892,
+            "byteOffset" : 3775936
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 197892,
+            "byteOffset" : 3973828
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 131928,
+            "byteOffset" : 4171720
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 248832,
+            "byteOffset" : 4303648
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4552480,
+            "uri" : "sunrise-sunset.bin"
+        }
+    ]
+}
